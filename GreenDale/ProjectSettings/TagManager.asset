@@ -44,21 +44,36 @@ TagManager:
   - name: background
     uniqueID: 933246873
     locked: 0
+  - name: weed
+    uniqueID: 3924635423
+    locked: 0
+  - name: Cliff
+    uniqueID: 2231598957
+    locked: 0
   - name: watertree
     uniqueID: 931597681
-    locked: 0
-  - name: house
-    uniqueID: 258053715
     locked: 0
   - name: extra
     uniqueID: 45522821
     locked: 0
-  - name: treeroot
-    uniqueID: 671429677
+  - name: fence
+    uniqueID: 1215979569
+    locked: 0
+  - name: tree
+    uniqueID: 2910492827
+    locked: 0
+  - name: house
+    uniqueID: 258053715
     locked: 0
   - name: player
     uniqueID: 333251347
     locked: 0
-  - name: tree
-    uniqueID: 2910492827
+  - name: treeroot
+    uniqueID: 671429677
+    locked: 0
+  - name: extraUp
+    uniqueID: 2738446967
+    locked: 0
+  - name: tent
+    uniqueID: 3984515615
     locked: 0

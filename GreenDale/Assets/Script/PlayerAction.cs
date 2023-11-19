@@ -9,10 +9,12 @@ public class PlayerAction : MonoBehaviour
     float v;
     bool isHorizonMove;
     Rigidbody2D rigid;
+    Animator anim;
 
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -32,6 +34,10 @@ public class PlayerAction : MonoBehaviour
             isHorizonMove = true;
         else if (vDown || hUp)
             isHorizonMove = false;
+
+        //Animation
+        anim.SetInteger("hAxisRaw", (int)h);
+        anim.SetInteger("vAxisRaw", (int)v);
     }
 
     void FixedUpdate()

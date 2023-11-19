@@ -3,25 +3,54 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+
 public class CameraManager : MonoBehaviour
 {
-    public GameObject target; // 카메라가 따라갈 대상
-    public float moveSpeed; // 카메라가 얼마나 빠른 속도로
-    private Vector3 targetPosition; // 대상의 현재 위치 값
+    [SerializeField]
+    Transform playerTransform;
+    [SerializeField]
+    Vector3 cameraPosition;
+
+    [SerializeField]
+    Vector2 center;
+    [SerializeField]
+    Vector2 mapSize;
+
+    [SerializeField]
+    float cameraMoveSpeed;
+    float height;
+    float width;
+
     void Start()
     {
+        playerTransform = GameObject.Find("player").GetComponent<Transform>();
 
+        height = Camera.main.orthographicSize;
+        width = height * Screen.width / Screen.height;
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (target.gameObject != null)
-        {
-            targetPosition.Set(target.transform.position.x, target.transform.position.y, this.transform.position.z);
-            // this = 카메라 
-            // 1초에 moveSpeed만큼 이동
-            this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, moveSpeed * Time.deltaTime);
-        }
+        LimitCameraArea();
+    }
+
+    void LimitCameraArea()
+    {
+        transform.position = Vector3.Lerp(transform.position,
+                                          playerTransform.position + cameraPosition,
+                                          Time.deltaTime * cameraMoveSpeed);
+        float lx = mapSize.x - width;
+        float clampX = Mathf.Clamp(transform.position.x, -lx + center.x, lx + center.x);
+
+        float ly = mapSize.y - height;
+        float clampY = Mathf.Clamp(transform.position.y, -ly + center.y, ly + center.y);
+
+        transform.position = new Vector3(clampX, clampY, -10f);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(center, mapSize * 2);
     }
 }
