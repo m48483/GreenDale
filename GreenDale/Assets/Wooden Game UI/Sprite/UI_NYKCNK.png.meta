@@ -1,0 +1,2005 @@
+fileFormatVersion: 2
+guid: 11c45fde9380f7e43ad4803940be88e4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_NYKCNK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cbc381b58ba3a4d98e68f646e0ba04
+      internalID: -1971112595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 402
+        width: 58
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd161a8d57b60844585dd6b05ecd80ac
+      internalID: 1987781514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 388
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae790c0cafece4b889008799264323
+      internalID: -78883056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 370
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a47958b9a789849b83ea47ac2157c0
+      internalID: 1801210495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 370
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf66e443470e3c4b80cce96af9a5ae3
+      internalID: 513848646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 370
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae33edb9e4450148b8dcfd16749c1ee
+      internalID: -1488398898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_6
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 306
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dbcd772d465a44683250d0bf7dc536
+      internalID: -1773183910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 370
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110292139f9167c48af661a0f662096e
+      internalID: -1277686109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa6eee0cf7e4947b6413d375b86b77
+      internalID: -66062637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 306
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1fddf968533934182d15c326f5ffda
+      internalID: -685795366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 306
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606a74a3ae43450499145d92adf3573d
+      internalID: -2047496653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 306
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e843a3caa6b9e4f4ebfc77c314ccf674
+      internalID: -559900245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 306
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c81b70fee68cc4a98273922bdcdd1f
+      internalID: -1102992823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 306
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb468aee16e2784b8e5f36887aeaa14
+      internalID: 1691296556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 274
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b2cf51ab303fa4bb3b6f4a40bb3654
+      internalID: 1812804905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 274
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae943d13c0334f488b4257d07b42110
+      internalID: 1759746038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 274
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57409cf9e8049064c804942591e2de8f
+      internalID: -398867094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 274
+        width: 45
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22ea5d765c53db4a938803f6e87dcae
+      internalID: -1643675266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 276
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2ddf125ec20da4883988da9a44d21e
+      internalID: -868552121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eb5791fcaa2c34e96da24ee77d37b1
+      internalID: -423080223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95400b1961e8b4347b427b76623ef2ac
+      internalID: -1778202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa94ff47155344da9d7a4b3762f08d
+      internalID: 763373194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7bc222503f26c47a3655d42baee85f
+      internalID: -1888378757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7ceff25f46fc643a4f794db126f6e0
+      internalID: 1158310187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 242
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a15a8a5fd53e2459f5533e5b2290b8
+      internalID: 1457571661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 242
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8895afb7f43b140929b37a325ba6c3
+      internalID: 1897063797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 242
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf6e049ad1e94045a48299dd2842fcd
+      internalID: 309027276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7a9ac3034c243458af44e55be053e2
+      internalID: -1062261203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f75f0b712daf64ca663704f0b67501
+      internalID: 1412145909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_29
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f469b552dd508ff4a8e068bd580afe0a
+      internalID: 2005109081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184c491be01ab304abf75232da49fa8f
+      internalID: -307998124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_31
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3182a95041dd33547b001dab495fcd4b
+      internalID: 634237668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_32
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dfd6578e84c2a4abc20e7c1750d852
+      internalID: -1875181932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_33
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 211
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc01e4a8d4667b47841e28482bb58c8
+      internalID: 613623891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 178
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b0682938836024b8d5960f24ef4281
+      internalID: -1934372438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_35
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 199
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfa19e457117b24eb134289ced478a9
+      internalID: 1366452053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_36
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 199
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64a970fde7a2ff45b5c3b0e2d33e6b6
+      internalID: -948399060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_37
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 178
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85dd1936f0464e45a20c9eaa56415d1
+      internalID: 1020764737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 178
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a439ea3a102946f478881fc349da0fe3
+      internalID: 873320948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 178
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ad639a3682f214b870ca2e5e84e93d
+      internalID: 1757853261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_40
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 178
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3582b11bc5e2e2142bf666555baceab9
+      internalID: 1856228620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 178
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f4ca659b5b2d541a3f1e7e5973f709
+      internalID: 415017582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_42
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 178
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fab61aeede7a34990394d713ef0fd6
+      internalID: 1555378371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 178
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e79af4efa613c45968b5fd7ebc892b
+      internalID: 1873329007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_44
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 178
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815951296bc4c4b46af615c439293ad7
+      internalID: -183640381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb9599921fff004987b1455a9be6f5e
+      internalID: -516698742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_46
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb35689a75ef9345832cb1aab3c20fc
+      internalID: 2125249996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_47
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 180
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2ed1a1164e80c42a3f20bf7f609e15
+      internalID: 479139449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_48
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 179
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d20ae345847fe4790b6950dcec81ac
+      internalID: 640277290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_49
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 179
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce744c23880c35a40a8db430309d2543
+      internalID: -1700247177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 146
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990ed3f0c7f78ec4fa6d051261109c35
+      internalID: 1336335444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_51
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 146
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465346642e870f14196c9d22760d10ee
+      internalID: -842662460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_52
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 146
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8999edb9caece41a2d7e348ce2061a
+      internalID: 750702614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_53
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 146
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2ae48a084b9064f9a074cb424b0d17
+      internalID: -1195318998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_54
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 146
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969d9d8f124a52647812de21f57493b4
+      internalID: -1534810280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_55
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 153
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8537c5b452d849e468b6a141bc75c60a
+      internalID: 1837634296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_56
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 147
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2191b022a968da246a4d90109dc4f989
+      internalID: -336254521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_57
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 146
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa946954b5c12fe41ae2808f69111781
+      internalID: -645564126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 146
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4f49afaa9e32049b5f70396787e657
+      internalID: -71673026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_59
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 133
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4743e0262730bd7458b56ef5746c5484
+      internalID: -861375848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_60
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 134
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d46128c6e0fdc46b64b610a8c63da2
+      internalID: -1424732497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 115
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2d822f391de9949bdc4d52e792cfe9
+      internalID: -208580436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 115
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d8044fdf9a0a045bb8f72f92678cb5
+      internalID: -175619850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_63
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 114
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f8dd3e06cab342b4a9b771a6b4ef0
+      internalID: -1837616144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_64
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 114
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff13490ed4cda84c84045fb712086ce
+      internalID: -939847506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_65
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 115
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84bcedc777d72040a01c8db4d96b1f0
+      internalID: -1440906144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_66
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 115
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0012c2b9e289f9c45aa7cd531c974388
+      internalID: 662399766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 114
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91777846d9ddfb498a6ffe6bed3a29f
+      internalID: 1985252647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 113
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed971f92aa6c1e4981129249c644d4b
+      internalID: 2027773949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 114
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c726379e58819546b60ab0e7e1b8c31
+      internalID: -1851020803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_70
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 82
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd9b509c595fef4484ab9496e9f6fde
+      internalID: 886737549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 82
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a2a77ab2f372a4b96e1fff58796566
+      internalID: -1578845084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_72
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 50
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd78ef5b6b6da40b2fa53228cda68b
+      internalID: 476975281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_73
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 50
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f9fc0b7f727b74da434f0e9deaa701
+      internalID: -1021621850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_74
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 50
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bb21d1eed9aa4abbd130d16cd989d
+      internalID: 584097908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 55
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f04c8c0e42cac418a556bb5cfae52a
+      internalID: -132012261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 55
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce677a20e64a2b94797dc71216bdf03c
+      internalID: 207014200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_77
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 12
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a0af8ffc7794640a0a4ec05a89042a
+      internalID: 250959785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 50
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758f9e9a453bf7d4b8c20eba32935ff2
+      internalID: 815689595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_79
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 50
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1885e8bf4d37ff4459794f5e1e226bee
+      internalID: -1119983055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_80
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 50
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209861b2e7294ec4ba58a1fdd78d7b98
+      internalID: 1171200078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_81
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5958528088caba1419d317602bc74319
+      internalID: -434616202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_82
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 18
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fbcdf650d66ef46a96ad431a09dab7
+      internalID: -1798081126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 18
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0207e73caceee15438798de3d4c9ef2a
+      internalID: -761687904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_NYKCNK_84
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 20
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf27d47d789ed94e96147d8e4ff4e8b
+      internalID: -1840458975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_NYKCNK_0: -1971112595
+      UI_NYKCNK_1: 1987781514
+      UI_NYKCNK_10: -2047496653
+      UI_NYKCNK_11: -559900245
+      UI_NYKCNK_12: -1102992823
+      UI_NYKCNK_13: 1691296556
+      UI_NYKCNK_14: 1812804905
+      UI_NYKCNK_15: 1759746038
+      UI_NYKCNK_16: -398867094
+      UI_NYKCNK_17: -1643675266
+      UI_NYKCNK_18: -868552121
+      UI_NYKCNK_19: -423080223
+      UI_NYKCNK_2: -78883056
+      UI_NYKCNK_20: -1778202
+      UI_NYKCNK_21: 763373194
+      UI_NYKCNK_22: -1888378757
+      UI_NYKCNK_23: 1158310187
+      UI_NYKCNK_24: 1457571661
+      UI_NYKCNK_25: 1897063797
+      UI_NYKCNK_26: 309027276
+      UI_NYKCNK_27: -1062261203
+      UI_NYKCNK_28: 1412145909
+      UI_NYKCNK_29: 2005109081
+      UI_NYKCNK_3: 1801210495
+      UI_NYKCNK_30: -307998124
+      UI_NYKCNK_31: 634237668
+      UI_NYKCNK_32: -1875181932
+      UI_NYKCNK_33: 613623891
+      UI_NYKCNK_34: -1934372438
+      UI_NYKCNK_35: 1366452053
+      UI_NYKCNK_36: -948399060
+      UI_NYKCNK_37: 1020764737
+      UI_NYKCNK_38: 873320948
+      UI_NYKCNK_39: 1757853261
+      UI_NYKCNK_4: 513848646
+      UI_NYKCNK_40: 1856228620
+      UI_NYKCNK_41: 415017582
+      UI_NYKCNK_42: 1555378371
+      UI_NYKCNK_43: 1873329007
+      UI_NYKCNK_44: -183640381
+      UI_NYKCNK_45: -516698742
+      UI_NYKCNK_46: 2125249996
+      UI_NYKCNK_47: 479139449
+      UI_NYKCNK_48: 640277290
+      UI_NYKCNK_49: -1700247177
+      UI_NYKCNK_5: -1488398898
+      UI_NYKCNK_50: 1336335444
+      UI_NYKCNK_51: -842662460
+      UI_NYKCNK_52: 750702614
+      UI_NYKCNK_53: -1195318998
+      UI_NYKCNK_54: -1534810280
+      UI_NYKCNK_55: 1837634296
+      UI_NYKCNK_56: -336254521
+      UI_NYKCNK_57: -645564126
+      UI_NYKCNK_58: -71673026
+      UI_NYKCNK_59: -861375848
+      UI_NYKCNK_6: -1773183910
+      UI_NYKCNK_60: -1424732497
+      UI_NYKCNK_61: -208580436
+      UI_NYKCNK_62: -175619850
+      UI_NYKCNK_63: -1837616144
+      UI_NYKCNK_64: -939847506
+      UI_NYKCNK_65: -1440906144
+      UI_NYKCNK_66: 662399766
+      UI_NYKCNK_67: 1985252647
+      UI_NYKCNK_68: 2027773949
+      UI_NYKCNK_69: -1851020803
+      UI_NYKCNK_7: -1277686109
+      UI_NYKCNK_70: 886737549
+      UI_NYKCNK_71: -1578845084
+      UI_NYKCNK_72: 476975281
+      UI_NYKCNK_73: -1021621850
+      UI_NYKCNK_74: 584097908
+      UI_NYKCNK_75: -132012261
+      UI_NYKCNK_76: 207014200
+      UI_NYKCNK_77: 250959785
+      UI_NYKCNK_78: 815689595
+      UI_NYKCNK_79: -1119983055
+      UI_NYKCNK_8: -66062637
+      UI_NYKCNK_80: 1171200078
+      UI_NYKCNK_81: -434616202
+      UI_NYKCNK_82: -1798081126
+      UI_NYKCNK_83: -761687904
+      UI_NYKCNK_84: -1840458975
+      UI_NYKCNK_9: -685795366
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
