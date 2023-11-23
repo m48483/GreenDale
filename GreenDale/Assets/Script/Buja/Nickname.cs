@@ -2,30 +2,46 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Fungus;
 
 public class Nickname : MonoBehaviour
 {
-    public InputField playerNameInput;
-    private string playerName = null;
+    public Button playBtn;
+    public InputField nameInputField;
+    public string playerName;
 
-    private void Awake()
-    {
-        playerName = playerNameInput.GetComponent<InputField>().text;
-    }
+    public Flowchart flowchart; // ¥Î»≠∞° ¿÷¥¬ Fungus Flowchart∏¶ ¬¸¡∂«’¥œ¥Ÿ.
 
-    private void Update()
+
+    private void OnNameInputChanged()
     {
-        //≈∞∫∏µÂ
-        if (playerName.Length > 0 && Input.GetKeyDown(KeyCode.Return))
+        playerName = nameInputField.text;
+
+        if (IsNameValid(playerName))
         {
-            InputName();
+            flowchart.ExecuteBlock("ValidNameBlock");
+        }
+        else
+        {
+            flowchart.ExecuteBlock("InvalidNameBlock");
         }
     }
-
-    //∏∂øÏΩ∫
-    public void InputName()
+    public void OnClickYes()
     {
-        playerName = playerNameInput.text;
-        PlayerPrefs.SetString("CurrentPlayerName", playerName);
+
+        string n = flowchart.GetStringVariable("PlayerName");
+        Debug.Log(n);
+        PlayerPrefs.SetString("PlayerName", flowchart.GetStringVariable("PlayerName"));
+    }
+
+    private bool IsNameValid(string name)
+    {
+        // ¿Ã∏ß¿Ã 2~6 ±€¿⁄¿« «—±€∑Œ ±∏º∫µ«æÓ ¿÷¥¬¡ˆ »Æ¿Œ
+        return System.Text.RegularExpressions.Regex.IsMatch(name, "^[∞°-∆R]{2,6}$");
+    }
+
+    public void playBtnOnClick()
+    {
+        OnNameInputChanged();
     }
 }
