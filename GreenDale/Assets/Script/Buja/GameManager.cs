@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private int Relationship;   // 생각해보니까 호감도 적어도 두개는 필요함
     private int Day;
     private int Seasons;        // 계절 0 봄 1 여름 2 가을 3 겨울
     public bool Encyclopedia;   // 도감
@@ -24,20 +23,23 @@ public class GameManager : MonoBehaviour
     // 봄의 1일은 스크립트 새로 작성 요망
     void Start()
     {
-        DontDestroyOnLoad(this);
 
+    }
+
+    public void nnn()
+    {
         string PlayerName = PlayerPrefs.GetString("PlayerName");
         Day = PlayerPrefs.GetInt("Day");
         Seasons = PlayerPrefs.GetInt("Seasons");
 
         // PlayerPrefs는 boolean 불가 f==0 t==1
-        if (PlayerPrefs.GetInt("Encyclopedia")==1)
+        if (PlayerPrefs.GetInt("Encyclopedia") == 1)
         {
             Encyclopedia = true;
         }
         else if (PlayerPrefs.GetInt("Encyclopedia") == 0)
         {
-            Encyclopedia=false;
+            Encyclopedia = false;
         }
 
         /*
@@ -67,7 +69,6 @@ public class GameManager : MonoBehaviour
         // 플레이어 이름 저장하기
         Debug.Log(PlayerName);
         GameObject.Find("Variables").GetComponent<Flowchart>().SetStringVariable("PlayerName", PlayerName);
-        GameObject.Find("Variables").GetComponent<Flowchart>().SetIntegerVariable("Relationship", Relationship);
         GameObject.Find("Variables").GetComponent<Flowchart>().SetIntegerVariable("Day", Day);
         GameObject.Find("Variables").GetComponent<Flowchart>().SetBooleanVariable("Encyclopedia", Encyclopedia);
         GameObject.Find("Variables").GetComponent<Flowchart>().SetStringVariable("EncyclopediasList", EncyclopediasList);
@@ -75,18 +76,8 @@ public class GameManager : MonoBehaviour
         GameObject.Find("Variables").GetComponent<Flowchart>().SetIntegerVariable("Farming", Farming);
         GameObject.Find("Variables").GetComponent<Flowchart>().SetIntegerVariable("Fishing", Fishing);
         GameObject.Find("Variables").GetComponent<Flowchart>().SetIntegerVariable("Money", Money);
-
     }
 
-    public void positiveRelationship()
-    {
-        Relationship += 5;
-    }
-
-    public void negativeRelationship()
-    {
-        Relationship -= 5;
-    }
     public void nextDay()
     {
         if (Day <= 21)

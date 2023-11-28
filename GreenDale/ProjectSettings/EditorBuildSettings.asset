@@ -20,4 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 8b0892f2c3ab2e14b9a310e03a4c1d61
+  - enabled: 1
+    path: Assets/Scenes/DiaryScene.unity
+    guid: 8f5f816644734b34bbb4b4a17665e543
+  - enabled: 1
+    path: Assets/Scenes/calenderScene.unity
+    guid: 81dc2570b1a9a9d468fdcfe32e509bff
+  - enabled: 1
+    path: Assets/Scenes/FishingScene.unity
+    guid: d2ac5871c6acb954fba00054726827a4
+  - enabled: 1
+    path: Assets/Scenes/SquareScene.unity
+    guid: 58f486bd68884c24c9b0ef493a8231d7
   m_configObjects: {}

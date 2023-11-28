@@ -18,8 +18,15 @@ public class CalenderManager : MonoBehaviour
     public Flowchart flowchart; // 대화가 있는 Fungus Flowchart를 참조합니다.
 
     GameManager gameManager;
+    public SceneChange sceneChange;
 
     void Start()
+    {
+        sceneChange = GetComponent<SceneChange>();
+        setDate();
+    }
+
+    public void setDate()
     {
         int Day = PlayerPrefs.GetInt("Day");
         int Seasons = PlayerPrefs.GetInt("Seasons");
@@ -40,21 +47,23 @@ public class CalenderManager : MonoBehaviour
                 break;
         }
 
-        switch (Day)
+        if (Day >= 1 && Day <= 7)
         {
-            case 1:
-                week = 1;
-                break;
-            case 2:
-                week = 2;
-                break;
-            case 3:
-                week = 2;
-                break;
+            week = 1;
+        }
+        else if(Day >= 8 && Day <= 14)
+        {
+            week = 2;
+        }
+        else if (Day >= 15 && Day <= 21)
+        {
+            week = 3;
         }
 
-        weeklyTasks = new int[5]; // 주간 할 일 배열 초기화
-        for (int i = Day; i < Day + 5; i++)
+        weeklyTasks = new int[7]; // 주간 할 일 배열 초기화
+        weeklyTasks[5] = 3;
+        weeklyTasks[6] = 3;
+        for (int i = Day-1; i < Day + 4; i++)
         {
             int dayIndex = i; // 버튼 인덱스를 저장하여 클로저에서 사용
 
@@ -62,9 +71,9 @@ public class CalenderManager : MonoBehaviour
             DaysBtn[i].onClick.AddListener(() => OnButtonClick(dayIndex));
         }
 
-        for (int i= 0; i < DaysBtn.Length; i++)
+        for (int i = 0; i < DaysBtn.Length; i++)
         {
-            if (i < Day || i >= Day + 5)
+            if (i < (Day-1) || i >= (Day + 4))
             {
                 SetButtonAlpha(i, 0.5f);
             }
@@ -120,7 +129,7 @@ public class CalenderManager : MonoBehaviour
         {
             PlayerPrefs.SetString("weeklyTasksList", weeklyTasksList);
             Debug.Log(weeklyTasksList);
-            //gameManager.nextDay();
+            sceneChange.continueGame();
         }
     }
 }
