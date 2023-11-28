@@ -24,6 +24,13 @@ public class PlayerAction : MonoBehaviour
     public string[] HayulResponses2;
     public string[] HayulResponses3;
 
+    public string[] SunHwaResponses1;
+    public string[] SunHwaResponses2;
+    public string[] SunHwaResponses3;
+
+    public string[] SoYoungSeokResponses1;
+    public string[] SoYoungSeokResponses2;
+    public string[] SoYoungSeokResponses3;
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -55,6 +62,7 @@ public class PlayerAction : MonoBehaviour
             isHorizonMove = false;
         else if (hUp || vUp)
             isHorizonMove = h != 0;
+
         //Animation
         if (anim.GetInteger("hAxisRaw") != h)
         {
@@ -106,6 +114,14 @@ public class PlayerAction : MonoBehaviour
         {
             ShowRandomHayulResponse();
         }
+        else if (n == "SoYoungSeok")
+        {
+            ShowRandomSoYoungSeokResponse();
+        }
+        else if (n == "VillageHead")
+        {
+            ShowRandomVillageHeadResponse();
+        }
 
     }
 
@@ -133,6 +149,8 @@ public class PlayerAction : MonoBehaviour
         // 랜덤한 인덱스 선택
         int randomIndex = Random.Range(0, ZoeResponses1.Length);
         int Zoeheart = otherFlowchart.GetIntegerVariable("ZoeHeart");
+        // int ZoeRandom = Random.Range(0, 2);
+        // otherFlowchart.SetIntegerVariable("ZoeRandom", ZoeRandom);
         // 선택한 대답 출력
         if (Zoeheart <= 10)
         {
@@ -166,6 +184,51 @@ public class PlayerAction : MonoBehaviour
         {
             otherFlowchart.SetStringVariable("sayy", HayulResponses3[randomIndex]);
         }
+    }
+    private void ShowRandomSoYoungSeokResponse()
+    {
+        // 랜덤한 인덱스 선택
+        int randomIndex = Random.Range(0, HayulResponses1.Length);
+        int SoYoungSeokheart = otherFlowchart.GetIntegerVariable("SoYoungSeokHeart");
+        // 선택한 대답 출력
+        if (SoYoungSeokheart <= 10)
+        {
+            otherFlowchart.SetStringVariable("sayy", SoYoungSeokResponses1[randomIndex]);
+        }
+        else if (SoYoungSeokheart > 10 && SoYoungSeokheart <= 40)
+        {
+            otherFlowchart.SetStringVariable("sayy", SoYoungSeokResponses2[randomIndex]);
+        }
+        else if (SoYoungSeokheart > 40)
+        {
+            otherFlowchart.SetStringVariable("sayy", SoYoungSeokResponses3[randomIndex]);
+        }
+    }
+    private void ShowRandomVillageHeadResponse()
+    {
+        // 랜덤한 인덱스 선택
+        int randomIndex = Random.Range(0, HayulResponses1.Length);
+        int VillageHeadheart = otherFlowchart.GetIntegerVariable("VillageHeadHeart");
+        // 선택한 대답 출력
+        if (VillageHeadheart <= 10)
+        {
+            otherFlowchart.SetStringVariable("sayy", SunHwaResponses1[randomIndex]);
+        }
+        else if (VillageHeadheart > 10 && VillageHeadheart <= 40)
+        {
+            otherFlowchart.SetStringVariable("sayy", SunHwaResponses2[randomIndex]);
+        }
+        else if (VillageHeadheart > 40)
+        {
+            otherFlowchart.SetStringVariable("sayy", SunHwaResponses3[randomIndex]);
+        }
+    }
 
+    public void ZoeHeartSet()
+    {
+        // 랜덤한 인덱스 선택
+        int ZoeHeart = otherFlowchart.GetIntegerVariable("ZoeHeart");
+        ZoeHeart -= 10;
+        otherFlowchart.SetIntegerVariable("ZoeHeart", ZoeHeart);
     }
 }
