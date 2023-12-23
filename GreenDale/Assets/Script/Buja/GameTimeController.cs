@@ -55,6 +55,10 @@ public class GameTimeController : MonoBehaviour
     {
         flowchart.ExecuteBlock("save");
     }
+    public void MMM()
+    {
+        PlayerPrefs.SetInt("Day", 5);
+    }
     void Update()
     {
         // 게임 시간 업데이트
